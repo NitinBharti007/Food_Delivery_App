@@ -33,3 +33,10 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .place-order-left,
+    .cart-total {
+      max-width: 100%;
+    }
+  }
