@@ -34,7 +34,7 @@
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .place-order-left,
     .cart-total {
       max-width: 100%;
