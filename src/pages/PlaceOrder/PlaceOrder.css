@@ -35,8 +35,25 @@
 }
 
 @media screen and (max-width: 750px) {
+    .place-order {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 30px; 
+      margin-top: 50px; 
+    }
+  
     .place-order-left,
+    .place-order-right,
     .cart-total {
-      max-width: 100%;
+      width: 100%; 
+    }
+  
+    .place-order-left .title {
+      font-size: 24px; 
+      margin-bottom: 30px;
+    }
+  
+    .place-order-left input {
+      margin-bottom: 10px;
     }
   }
